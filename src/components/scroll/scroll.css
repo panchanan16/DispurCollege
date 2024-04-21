@@ -1,17 +1,16 @@
-/* @keyframes slide {
+@keyframes slide {
     from {
         transform: translateX(0);
     }
 
     to {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
 
 .update-slide {
-    animation: 7s slide linear infinite;
-    overflow-x: scroll;
-} */
+    animation: 10s slide linear infinite;
+}
 
 /* ::-webkit-scrollbar {
     height: 17px; 

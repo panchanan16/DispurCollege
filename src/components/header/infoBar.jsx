@@ -13,7 +13,7 @@ const InfoBar = () => {
             <div className='flex items-center '>
                 {/* <Image src="/iso-9001.png" width={100} height={50}/> */}
                 <img src="/iso-9001.png" alt="iso" width="63px" style={{ aspectRatio: 1 }} />
-                <img src="/g20.png" alt="iso" width="80px" style={{ aspectRatio: 1 }} />
+                <img src="/g20.png" alt="iso" width="100px" />
                 <img src="/75.png" alt="iso" width="120px" height="40px" />
                 <img src="/iso-210001.png" alt="iso" width="63px" style={{ aspectRatio: 1 }} />
             </div>

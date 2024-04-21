@@ -6,12 +6,12 @@ import Mission from '../m-vison/mission'
 const Mivi = () => {
     return (
         <>
-            <div className='flex flex-col items-center w-full justify-start h-auto gap-10'>
+            <div className='flex flex-col items-center w-full justify-start h-auto gap-10 mt-10'>
                 <div className='text-4xl font-bold '>
                     Our Mission, Vission, CoreValue
                 </div>
                 <div className='h-full w-full relative'>
-                    <div className='bg-blue-900 h-full w-[15rem] absolute left-0 -z-10'>
+                    <div className='bg-blue-900 h-full w-[15rem] absolute left-0 -z-10 rounded-r-3xl'>
                     </div>
                     <div className='flex items-center gap-10 ml-[8rem] mt-20 text-sm z-20 max-w-[80vw]'>
                         <div className='bg-yellow-300 border-8 border-white w-[20rem] aspect-square p-8 rounded-full'>
@@ -49,7 +49,7 @@ const Mivi = () => {
                         </div>
                         <div className='flex flex-col gap-5'>
                             <h2 className='text-2xl font-semibold'>Our core</h2>
-                            <p className='text-slate-600'>
+                            <div className='text-slate-600'>
                                 <ol type="a" className='flex flex-col gap-2'>
                                     <li>1. Integrity: Acting in accordance with the highest academic, professional and ethical standards is a priority for one and all representing the educational institution.</li>
                                     <li>2. Responsibility: We are aware that our moves influence the world around us and based on that apprehension, we make the conscious choice to take actions to improve our community and the lives of each and everyone around us.</li>
@@ -59,7 +59,7 @@ const Mivi = () => {
                                     <li>6. Transparency: We believe in accessibility, compliance, communication and accountability.</li>
                                     <li>7. Environmental Sustainability: We value adopting practices for minimising our impact on the environment to the benefit of a more sustainable future for posterity.</li>
                                 </ol>
-                            </p>
+                            </div>
                         </div>
                     </div>
 

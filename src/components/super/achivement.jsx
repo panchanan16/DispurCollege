@@ -5,7 +5,7 @@ const Achivements = () => {
   return (
    <div className='bg-blue-950 flex flex-col gap-10 items-center '>
       <div>
-       <h1 className='text-4xl font-bold text-white p-5'> Our Achivements <MilitaryTechIcon className='text-6xl text-yellow-500'/></h1>
+       <h1 className='text-4xl mt-10 font-bold text-white p-5'> Our Achivements <MilitaryTechIcon className='text-6xl text-yellow-500'/></h1>
       </div>
       <div className='flex'>  
         <div className='flex flex-col gap-3 items-center justify-center'>

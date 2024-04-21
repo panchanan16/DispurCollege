@@ -1,5 +1,6 @@
 import DomainAddIcon from '@mui/icons-material/DomainAdd';
 import VerifiedIcon from '@mui/icons-material/Verified';
+import './noti.css'
 
 const Tenders = () => {
     return (
@@ -11,7 +12,7 @@ const Tenders = () => {
                 </div>
             </div>
             <div className='border-2 p-5 rounded-xl shadow-2xl'>
-                <div className='flex flex-col gap-5 w-[25vw] h-[18rem] overflow-y-scroll p-3'>
+                <div className='scroll-bar flex flex-col gap-5 w-[25vw] h-[18rem] overflow-y-scroll p-3'>
                     <div className='flex gap-3'>
                         <VerifiedIcon className='text-green-500' />
                         <p className='max-w-[25vw]'>Lorem ipsum dolor sit consectetur adipisicing elit ok i will go.</p>
